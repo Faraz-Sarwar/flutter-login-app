@@ -23,7 +23,7 @@ class _HomeScreenState extends State<LoginScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              height: 400,
+              height: MediaQuery.of(context).size.height * 0.4,
               width: double.infinity,
               decoration: BoxDecoration(
                 color: Colors.deepOrangeAccent,
