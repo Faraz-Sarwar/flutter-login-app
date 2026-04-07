@@ -1,16 +1,38 @@
-# basic_login_ui
+# Flutter Login UI
 
-A new Flutter project.
+This project is a simple Flutter login application built as part of my internship (Week 1 task).
 
-## Getting Started
+## 📱 Features
+- Login screen with:
+  - Email field with validation
+  - Password field with validation
+  - Show/Hide password functionality
+- Form validation:
+  - Email must not be empty and must contain '@'
+  - Password must be at least 6 characters
+- Navigation to Home Screen on successful login
+- "Forgot Password?" text UI
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- Flutter
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Project Structure
+- `login_screen.dart` → Handles UI, validation, and navigation
+- `home_screen.dart` → Destination screen after login
+- `main.dart` → App entry point
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 How It Works
+1. User enters email and password
+2. Form validation runs:
+   - Checks if email is valid
+   - Checks password length
+3. If valid:
+   - Navigates to Home Screen using `Navigator.push()`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 How to Run
+1. Clone the repository
+2. Run:
+
+## 👨‍💻 Author
+Faraz Sarwar
